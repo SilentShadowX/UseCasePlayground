@@ -15,6 +15,7 @@ class MessageMapper {
 
         val msg = Message()
 
+        msg.id = modelObject.id
         msg.message = modelObject.message
 
         msg.priority.apply {
