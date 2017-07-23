@@ -1,6 +1,5 @@
-package com.kpiega.usecaseplayground
+package com.kpiega.usecaseplayground.mvp
 
-import com.kpiega.data.datamodel.MessageModel
 import com.kpiega.domain.model.Message
 import com.kpiega.domain.usecase.GetMessageList
 import com.kpiega.domain.usecase.GetMessageRandom

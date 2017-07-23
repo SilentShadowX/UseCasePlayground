@@ -1,4 +1,4 @@
-package com.kpiega.usecaseplayground.base
+package com.kpiega.usecaseplayground.mvp.base
 
 /**
  * Created by kpiega on 22.07.2017.

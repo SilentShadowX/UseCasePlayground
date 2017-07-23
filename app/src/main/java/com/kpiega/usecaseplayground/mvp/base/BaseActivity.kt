@@ -1,4 +1,4 @@
-package com.kpiega.usecaseplayground.base
+package com.kpiega.usecaseplayground.mvp.base
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
