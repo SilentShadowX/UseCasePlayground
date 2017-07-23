@@ -20,7 +20,7 @@ class FirstMessageSource : MessageDataSource {
     override fun messageList(): Single<List<MessageModel>> = Single.just(list)
 
     override fun randomMessage(): Single<MessageModel> {
-        val rand = Random().nextInt() % 3
+        val rand = Math.abs(Random().nextInt() % list.size)
         return Single.just(list[rand])
     }
 
