@@ -7,10 +7,10 @@ import com.kpiega.data.repository.source.MessageSourceFactory
 import com.kpiega.domain.model.Message
 import com.kpiega.domain.usecase.GetMessageList
 import com.kpiega.domain.usecase.GetMessageRandom
+import com.kpiega.usecaseplayground.R
 import com.kpiega.usecaseplayground.mvp.MainPresenter
 import com.kpiega.usecaseplayground.mvp.MainPresenterImpl
 import com.kpiega.usecaseplayground.mvp.MainView
-import com.kpiega.usecaseplayground.R
 import com.kpiega.usecaseplayground.mvp.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
