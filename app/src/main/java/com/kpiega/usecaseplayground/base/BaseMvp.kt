@@ -7,7 +7,7 @@ package com.kpiega.usecaseplayground.base
 interface BaseMvp {
 
     interface BaseView {
-        fun <T: String> showMessage(msg: T)
+        fun showMessage(msg: String)
     }
 
     interface BasePresenter<V: BaseView> {
